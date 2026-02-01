@@ -33,5 +33,5 @@ def creating_Emp(request):
 @api_view(["GET"])
 def getAll_Emps(request):
     if request.method=="GET":
-        allEmpData=read_data()
-        return JsonResponse(allEmpData)
+        allEmpDATA=read_data()
+        return JsonResponse(allEmpDATA)
