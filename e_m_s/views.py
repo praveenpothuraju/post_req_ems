@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
 from rest_framework.decorators import api_view
 import json
 # Create your views here.
@@ -28,3 +28,10 @@ def creating_Emp(request):
     write_data(datafromjsonfile)
     # print(datafromjsonfile,"data from json file")
     return HttpResponse("emp added sucessfully")
+
+# @get view
+@api_view(["GET"])
+def getAll_Emps(request):
+    if request.method=="GET":
+        allEmpData=read_data()
+        return JsonResponse(allEmpData)

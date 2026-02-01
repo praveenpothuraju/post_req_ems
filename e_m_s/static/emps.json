@@ -1,1 +1,28 @@
-{"employees": [{"csrfmiddlewaretoken": "aTTNXLCFJwMdJOF59flQC9eL9KMZggvx27pQchXbBCaTXdIC1uLsJWTkY9Yg19mQ", "name": "tejas", "email": "praveenteja0325@gmail.com", "dept": "devloper"}, {"csrfmiddlewaretoken": "ak40J05YgrEQP1iVMToxKkp0KiQBBarc2yA3Ywqu8x2w3qlsE8O9R74zzH2Sm3iv", "name": "praveenpothuraju", "email": "praveenpothuraju03@gmail.com", "dept": "djangodeveloper"}, {"csrfmiddlewaretoken": "H8xiBSeZWlGivI1nQZQ1cL65fviGKLTc0epa6xOlarSVehznoXFLFXdLrH3ECZpP", "name": "praveen", "email": "teja@gmail.com", "dept": "python"}, {"csrfmiddlewaretoken": "pc4SOKfotrMUVyQxjEwnJYHcs4rkb7NrtKxmyPhhw4qjvgimDfQMNcIAAzb1VP7h", "name": "praveenteja", "email": "enfec@gmail.com", "dept": "backend devloper"}]}
+{
+    "employees": [
+        {
+            "csrfmiddlewaretoken": "aTTNXLCFJwMdJOF59flQC9eL9KMZggvx27pQchXbBCaTXdIC1uLsJWTkY9Yg19mQ",
+            "name": "tejas",
+            "email": "praveenteja0325@gmail.com",
+            "dept": "devloper"
+        },
+        {
+            "csrfmiddlewaretoken": "ak40J05YgrEQP1iVMToxKkp0KiQBBarc2yA3Ywqu8x2w3qlsE8O9R74zzH2Sm3iv",
+            "name": "praveenpothuraju",
+            "email": "praveenpothuraju03@gmail.com",
+            "dept": "djangodeveloper"
+        },
+        {
+            "csrfmiddlewaretoken": "H8xiBSeZWlGivI1nQZQ1cL65fviGKLTc0epa6xOlarSVehznoXFLFXdLrH3ECZpP",
+            "name": "praveen",
+            "email": "teja@gmail.com",
+            "dept": "python"
+        },
+        {
+            "csrfmiddlewaretoken": "pc4SOKfotrMUVyQxjEwnJYHcs4rkb7NrtKxmyPhhw4qjvgimDfQMNcIAAzb1VP7h",
+            "name": "praveenteja",
+            "email": "enfec@gmail.com",
+            "dept": "backend devloper"
+        }
+    ]
+}

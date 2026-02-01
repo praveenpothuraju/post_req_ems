@@ -13,5 +13,16 @@
         <input type="text" name="dept" placeholder="enter emp dept here " required>
         <button type="submit">addEmp</button>
     </form>
+   <button id="getAllEmps">getAllEmpData</button>
+   <script>
+    document.getElementById("getAllEmps").addEventListener("click",()=>{
+        fetch("{%url 'getAll_emps'%}").then(res=>res.json()).then(res=>console.log(res)).
+        catch(err=>console.log(err))
+    
+    })
+   </script>
+
+
+
 </body>
 </html>
