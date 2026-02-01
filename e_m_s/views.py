@@ -6,7 +6,8 @@ import json
 file_name="e_m_s/static/emps.json"
 def read_data():
     with open(file_name,"r") as f:
-       return json.load(f)
+#json.load() is used to read JSON data from a file and convert it into a Python object (dict / list).
+       return json.load(f) 
 
 def write_data(data):
    with open(file_name,"w") as f:
@@ -19,7 +20,8 @@ def emp_adding_form(request):
 #  @post view
 @api_view(["POST"])
 def creating_Emp(request):
-    data=request.POST.dict()
+    # recived the data(html file)- we can add this data( form data) in json file format 
+    data=request.POST.dict() 
     # print(type(data),"from data in postreq")
     datafromjsonfile=read_data()
     datafromjsonfile['employees'].append(data)
